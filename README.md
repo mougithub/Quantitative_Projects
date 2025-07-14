@@ -1,4 +1,4 @@
-# Quantitative-Research-JP-Morgan-Job-Simulation-Virtual-internship-
+# Quantitative-Research-JP-Morgan-Job-Simulation-Virtual-internship
 I recently completed the JPMC Quantitative Research job simulation in Forage. Here is what I learned in details and in simple terms.
 There were 4 main tasks in total:
 
