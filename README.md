@@ -1,5 +1,5 @@
 # Quantitative-Research-JP-Morgan-Job-Simulation-Virtual-internship-
-I recently completed the JPMC Quantitative Research Internship in Forage. Here is what I learned in details and in simple terms.
+I recently completed the JPMC Quantitative Research job simulation in Forage. Here is what I learned in details and in simple terms.
 There were 4 main tasks in total:
 
 Task 1 - investigate and analyse price data used VSCode and "Nat_Gas.xlsx"
