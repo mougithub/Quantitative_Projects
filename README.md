@@ -1,13 +1,16 @@
 # Quantitative-Research-JP-Morgan-Job-Simulation-Virtual-internship
 I recently completed the JPMC Quantitative Research job simulation in Forage. Here is what I learned in details and in simple terms.
-There were 4 main tasks in total:
+There were 4 main tasks in total, detailed promts are in each task folder.
 
-Task 1 - Take historic existing price data (monthly snapshot) and extarpolate for next year price estimation. Visualize and find patterns for the factors that caused the variation. 
-#What I did: 
+#Task 1 - Take historic existing price data (monthly snapshot) and extarpolate for next year price estimation. Visualize and find patterns or seasonal trends for the factors that caused the variation. 
 
-Task 2 - price a commodity storage contract used VSCode and "Nat_Gas.xlsx"
+#What I did: I can do np.polyfit (NumPy) or sklearn () or LSTM, For these datasets, i did the sklearn. I found that there appears to be a seasonal pattern, with higher prices occurring in the winter months (e.g., January, February, December) and lower prices in the summer months (e.g., June, July). This is likely due to increased demand for heating in the winter. 
 
-Task 3 - credit risk analysis used Jupyter Notebook (much easier) and "task 3 and task 4_Loan_Data.csv"
+However, in their sample answer,they did linear plus a seasinal trend which was amazing. Learned something new! I showing here what I did and what I submitted. Cannot provide the sample answer for obvious reason.
 
-Task 4 - bucket fico scores used Jupyter Notebook and "task 3 and task 4_Loan_Data.csv" somewhat confused on this task, however, tried to finish
+#Task 2 - price a commodity storage contract used VSCode and "Nat_Gas.xlsx"
+
+#Task 3 - credit risk analysis used Jupyter Notebook (much easier) and "task 3 and task 4_Loan_Data.csv"
+
+#Task 4 - bucket fico scores used Jupyter Notebook and "task 3 and task 4_Loan_Data.csv" somewhat confused on this task, however, tried to finish
 
