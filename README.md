@@ -6,9 +6,11 @@ In first project(Task 1 and Task 2) I was given a natural gas price data and tol
 
 **Task 1** - Take historic existing price data (monthly snapshot) and extarpolate for next year price estimation. Visualize and find patterns or seasonal trends for the factors that caused the variation. 
 
-**What I did**: It can be done by np.polyfit (NumPy) or sklearn () or even LSTM, For these datasets, i did the sklearn. I found that there appears to be a seasonal pattern, with higher prices occurring in the winter months (e.g., January, February, December) and lower prices in the summer months (e.g., June, July). This is likely due to increased demand for heating in the winter. 
-
-However, in their sample answer, they did linear plus a seasinal trend which was an amazing idea. Learned something new! I am showing here what I did and what I submitted. Cannot provide the sample answer for obvious reason.
+**What I did**: It can be done by np.polyfit (NumPy) or sklearn (scikit-learn) or even LSTM. For this dataset, I did the sklearn regression. I found that there appears to be a seasonal pattern, with higher prices occurring in the winter months (e.g., January, February, December) and lower prices in the summer months (e.g., June, July). This is likely due to increased demand for heating in the winter. 
+While degree 3 polynomial model evaluation was improved and good enough to predict prices for any given date, it does miss the seasonality.
+However, in their sample answer, they did linear plus a sinusoidal seasonal trend combined which was an amazing idea. Learned something new!
+Inspired by the example answer, I also tried for a seasonality model using only numpy and np.polyfit. Improved R-squared: 0.9139 and Mean Squared Error: 0.0484. I am very happy with the second method. Although the estimated price prediction did not change that much from the sklearn polynomial regression model.
+I am showing here what I did and what I submitted. Cannot provide the sample answer for obvious reason.
 
 **Task 2** - price a commodity storage contract used VSCode and "Nat_Gas.xlsx"
 
