@@ -5,6 +5,7 @@ The risk manager has collected data on the loan borrowers. The data is in tabula
 You should produce a function that can take in the properties of a loan and output the expected loss.
 You can explore any technique ranging from a simple regression or a decision tree to something more advanced. You can also use multiple methods and provide a comparative analysis.
 
+What I Did:
 
 I performed **credit risk modeling** to estimate the **Probability of Default (PD)** and **Expected Loss (EL)** for individual borrowers.  
 
